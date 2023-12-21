@@ -9,9 +9,11 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage ('Build') {
             steps {
-                sudo ./hello-world.sh
+                script {
+                    sudo ./hello-world.sh
+                }
             }
         }
     }
