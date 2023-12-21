@@ -15,7 +15,5 @@ pipeline {
                 sudo ./hello-world.sh
             }
         }
-
-        // Add more stages as needed
     }
 }
