@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sudo ./hello-world.sh
+                    echo "Hello, World!"
                 }
             }
         }
