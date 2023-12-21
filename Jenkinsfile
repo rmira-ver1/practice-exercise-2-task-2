@@ -12,7 +12,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo "Hello, World!"
+                ./hello-world.sh
             }
         }
 
