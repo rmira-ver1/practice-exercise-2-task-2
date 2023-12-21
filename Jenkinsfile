@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    hello-world.sh
+                    ./hello-world.sh
                 }
             }
         }
