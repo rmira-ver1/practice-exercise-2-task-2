@@ -12,7 +12,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                ./hello-world.sh
+                sudo ./hello-world.sh
             }
         }
 
