@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    echo "Hello, World!"
+                    sh './hello-world.sh'
                 }
             }
         }
